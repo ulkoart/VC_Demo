@@ -12,6 +12,8 @@
 		CEDF13652350B2B60003A69F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDF13632350B2B60003A69F /* Main.storyboard */; };
 		CEDF13672350B2B90003A69F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDF13662350B2B90003A69F /* Assets.xcassets */; };
 		CEDF136A2350B2B90003A69F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDF13682350B2B90003A69F /* LaunchScreen.storyboard */; };
+		CEDF13732350B4670003A69F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF13712350B4670003A69F /* SecondViewController.swift */; };
+		CEDF13742350B4670003A69F /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEDF13722350B4670003A69F /* SecondViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		CEDF13662350B2B90003A69F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEDF13692350B2B90003A69F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEDF136B2350B2B90003A69F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDF13712350B4670003A69F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		CEDF13722350B4670003A69F /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				CEDF135F2350B2B60003A69F /* AppDelegate.swift */,
 				CEDF13612350B2B60003A69F /* ViewController.swift */,
+				CEDF13712350B4670003A69F /* SecondViewController.swift */,
+				CEDF13722350B4670003A69F /* SecondViewController.xib */,
 				CEDF13632350B2B60003A69F /* Main.storyboard */,
 				CEDF13662350B2B90003A69F /* Assets.xcassets */,
 				CEDF13682350B2B90003A69F /* LaunchScreen.storyboard */,
@@ -122,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEDF13742350B4670003A69F /* SecondViewController.xib in Resources */,
 				CEDF136A2350B2B90003A69F /* LaunchScreen.storyboard in Resources */,
 				CEDF13672350B2B90003A69F /* Assets.xcassets in Resources */,
 				CEDF13652350B2B60003A69F /* Main.storyboard in Resources */,
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEDF13732350B4670003A69F /* SecondViewController.swift in Sources */,
 				CEDF13622350B2B60003A69F /* ViewController.swift in Sources */,
 				CEDF13602350B2B60003A69F /* AppDelegate.swift in Sources */,
 			);

@@ -12,7 +12,16 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+    }
+    
+    @IBAction func showSecondViewController(_ sender: Any) {
+        let secondViewController = SecondViewController(nibName: "SecondViewController", bundle: nil)
+        
+//  let secondViewController = SecondViewController() - если имена файлов совпадают
+        
+        present(secondViewController, animated: true, completion: nil)
+        
     }
 
 
