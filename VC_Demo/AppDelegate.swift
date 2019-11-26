@@ -16,6 +16,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let startViewController = StartViewController()
+        
+        
+        window = UIWindow(frame:UIScreen.main.bounds)
+        let tabBarController = UITabBarController()
+        let rateViewCintroller = RateViewController()
+        rateViewCintroller.tabBarItem = UITabBarItem(title: "Rate", image: #imageLiteral(resourceName: "star"), selectedImage: nil)
+        
+        
+        let navinationController = UINavigationController(rootViewController: startViewController)
+        navinationController.tabBarItem = UITabBarItem(title: "Peace", image: UIImage(named: "like"), selectedImage: nil)
+        tabBarController.viewControllers = [navinationController, rateViewCintroller]
+        
+        window?.rootViewController = tabBarController
+        window?.makeKeyAndVisible()
+        
         return true
     }
 
